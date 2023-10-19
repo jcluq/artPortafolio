@@ -8,7 +8,7 @@
 import * as React from "react"
 import Navbar from "./navbar"
 import MediaQuery from "react-responsive"
-import menuIcon from "../images/menuicon.png"
+import menuIcon from "../images/menuIcon.png"
 import { useState } from "react"
 import MobileMain from "./mobileMain"
 
