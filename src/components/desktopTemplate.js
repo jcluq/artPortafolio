@@ -1,10 +1,8 @@
 import React from "react"
-import Layout from "./layout"
-import { graphql } from "gatsby"
 import Carrousel from "./carrousel/carrousel"
 
 export default function DesktopTemplate({data}) {
-  console.log(data)
+
   const {html} = data.markdownRemark
   const {title} = data.markdownRemark.frontmatter
 

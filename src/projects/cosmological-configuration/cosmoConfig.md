@@ -15,8 +15,3 @@ To all of those who helped, even by a little, to bring this piece up, specially 
 
 
 
-<div class='iframe-parent'>
-<iframe class ="video" src="https://www.youtube.com/embed/EAcQojAMU7s">
-      
-</iframe>
-</div>
