@@ -35,7 +35,7 @@ export const query = graphql`
       html
     }
     allFile(
-      filter: { relativeDirectory: { eq: $slug }, extension: { ne: "md" } }
+      filter: { relativeDirectory: { eq: $slug }, extension: { ne: "md" }  } sort: { name: ASC }
     ) {
       nodes {
         name

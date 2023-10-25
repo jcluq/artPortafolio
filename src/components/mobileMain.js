@@ -22,10 +22,10 @@ export default function MobileMain() {
   return (
     <div className="flex flex-col p-4 h-full">
       <div>
-        <h1 className=" text-xl">Juan Camilo Luque</h1>
+        <Link to="/"><h1 className=" text-xl">Juan Camilo Luque</h1></Link>
         <h3>art + media + design</h3>
         <br></br>
-        <h3 className=" text-xs text-justify">
+        <h3 className=" text-sm text-justify">
           I am an artist and maker from Bogota, Colombia with a deep interest in
           installation, sculpture, physical computation and digital fabrication.<br></br><br></br>
           I like to work with perceptually interesting technologies, objects and
