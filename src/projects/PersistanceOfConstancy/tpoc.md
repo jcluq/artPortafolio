@@ -1,8 +1,8 @@
 ---
 
 title: The Persistance of Constancy
-slug: tpoc
-imagesPath: ../images/
+slug: PersistanceOfConstancy
+
 ---
 
 This installation stages a minimal but persistent interaction: water is condensed from the surrounding air and slowly directed, drop by drop, onto the surface of a rock. Over time—potentially years, decades, or even longer—this action is intended to cause erosion, a process that is usually imperceptible within the span of a human life.
