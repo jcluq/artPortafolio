@@ -3,6 +3,7 @@
 title: axisBar
 slug: axisBar
 imagesPath: ../images/
+year: 2017
 ---
 
 The axisBar is a midi controller which allows interaction without physical contact.

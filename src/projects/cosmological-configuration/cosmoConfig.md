@@ -1,7 +1,7 @@
 ---
 title: Cosmological Configuration
 slug: cosmological-configuration
-
+year: 2018
 ---
 
 

@@ -31,7 +31,7 @@ export default function Navbar() {
       </div>
       <div className=" flex links h-4/5 justify-center items-left flex-col">
         {projects.map(project => (
-          <Link to={"/" + project.frontmatter.slug} key={project.id}>
+          <Link to={"/" + project.frontmatter.slug} key={project.year}>
             - {project.frontmatter.title}
           </Link>
           

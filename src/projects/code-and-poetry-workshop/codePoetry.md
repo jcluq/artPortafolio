@@ -2,6 +2,7 @@
 
 title: Code and Poetry Workshop
 slug: code-and-poetry-workshop
+year: 2020
 ---
 
 

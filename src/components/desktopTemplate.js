@@ -5,7 +5,7 @@ export default function DesktopTemplate({data}) {
 
   const {html} = data.markdownRemark
   const {title} = data.markdownRemark.frontmatter
-
+  const {year} = data.markdownRemark.frontmatter
 
 
   return (
@@ -13,6 +13,7 @@ export default function DesktopTemplate({data}) {
       <div className=" w-full flex h max h-full">
         <div className=" w-5/12 wrap p-10 overflow-auto scrollbar border-l border-r border-black">
           <h2 className=" text-2xl mt-10">{title}</h2>
+          <h3 className=" text-xl mt-10">{year}</h3>
           <div
             dangerouslySetInnerHTML={{ __html: html }}
             className=" mt-10 flex flex-col gap-10 text-justify "

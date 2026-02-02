@@ -31,6 +31,7 @@ export const query = graphql`
       frontmatter {
         title
         imagesPath
+        year
       }
       html
     }

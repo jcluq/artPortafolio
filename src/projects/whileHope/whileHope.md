@@ -3,6 +3,8 @@
 title: whileHope
 slug: whileHope
 imagesPath: ../images/
+year: 2024
+order: 1
 ---
 
 This artwork can be described through a very simple instruction: twenty dice are rolled at the same time. If the result of all dice is not the number one, they are rolled again. When the desired result is obtained, the machine stops. With this work, I created a system that ultimately speaks about hope, anticipatory consciousness, the complications embedded in the idea of possibility, and how durability becomes crucial to any form of material resistance. When possibility meets improbability, duration and resistance become matters of time.
