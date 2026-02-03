@@ -23,7 +23,7 @@ export default function DesktopTemplate({data}) {
           <div className="video">
             <iframe
               src={"https://www.youtube.com/watch?v=hNDfpak3wlc&t=1s"}
-              title={videoTitle}
+              title={"Video"}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               frameBorder="0"
               webkitallowfullscreen="true"
