@@ -16,7 +16,7 @@ export default function ProjectDetails({ data }) {
           <DesktopTemplate data={data} />
         </Layout>
       </MediaQuery>
-      <MediaQuery maxWidth={1000}>
+      <MediaQuery maxWidth={1223}>
         <Layout>
           <MobileTemplate data={data}/>
         </Layout>
