@@ -20,9 +20,9 @@ export default function DesktopTemplate({data}) {
           ></div>
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
-          <div className="video">
+          <div className="video w-full">
             <iframe
-              src={"https://www.youtube.com/embed/hNDfpak3wlc&t"}
+              src={"https://www.youtube.com/embed/hNDfpak3wlc"}
               title={"Video"}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               frameBorder="0"
