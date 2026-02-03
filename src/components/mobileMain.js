@@ -36,7 +36,11 @@ export default function MobileMain() {
           electronics, programming and digital fabrication in a horizontal way.
           I believe the sharing of knowledge is the basis for a better future.
         </h3>
+         z
+          
       </div>
+        <br></br>
+        <br></br>
       <div className=" flex links h-2/6 justify-center items-left flex-col">
         {projects.map(project => (
           <Link to={"/" + project.frontmatter.slug} key={project.id}>
