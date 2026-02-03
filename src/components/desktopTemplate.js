@@ -23,7 +23,7 @@ export default function DesktopTemplate({data}) {
           {youtube_id && (<div className="video w-full">
             <iframe 
                     className="w-full aspect-video"
-                    src="https://www.youtube.com/embed/hNDfpak3wlc" 
+                    src={`https://www.youtube.com/embed/${youtubeId}`}
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
