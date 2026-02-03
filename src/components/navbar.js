@@ -22,7 +22,7 @@ export default function Navbar() {
   `)
 
   const projects = data.allMarkdownRemark.nodes    
-  
+  const 
 
     
   return (
@@ -33,7 +33,7 @@ export default function Navbar() {
       </div>
       <div className=" flex links h-4/5 justify-center items-left flex-col">
         {projects.map(project => (
-          <Link to={"/" + project.frontmatter.slug} key={project.order}>
+          <Link to={"/" + project.frontmatter.slug} key={project.frontmatter.order}>
             - {project.frontmatter.title}
           </Link>
           
