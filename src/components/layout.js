@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
           <div className=" w-4/5 flex">{children}</div>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={1000}>
+      <MediaQuery maxWidth={1223}>
         <div className=" w-full h-screen flex bg-black text-white">
           <div className=" ">{children}</div>
         </div>
