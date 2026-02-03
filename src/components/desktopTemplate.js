@@ -21,7 +21,8 @@ export default function DesktopTemplate({data}) {
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
           <div className="video w-full">
-            <iframe width="100%" src="https://www.youtube.com/embed/0itJS4dq_1E"></iframe>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/hNDfpak3wlc">
+            </iframe>
           </div>
           <Carrousel images={data.allFile.nodes} />
         </div>
