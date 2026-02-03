@@ -11,12 +11,12 @@ export default function ProjectDetails({ data }) {
   console.log(data)
   return (
     <>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={1001}>
         <Layout>
           <DesktopTemplate data={data} />
         </Layout>
       </MediaQuery>
-      <MediaQuery maxWidth={1223}>
+      <MediaQuery maxWidth={1000}>
         <Layout>
           <MobileTemplate data={data}/>
         </Layout>

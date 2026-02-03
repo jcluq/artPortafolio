@@ -5,12 +5,14 @@ export default function MobileTemplate({ data }) {
   console.log(data.allFile.nodes[0].childrenImageSharp[0].fluid)
   const { html } = data.markdownRemark
   const { title } = data.markdownRemark.frontmatter
+  const { year } = data.markdownRemark.frontmatter
   const [images] = data.allFile.nodes
 
   return (
     <>
     <div className=" wrap p-10 overflow-auto scrollbar bg-black">
       <h2 className=" text-3xl ">{title}</h2>
+      <h2 className=" text-xl ">{year}</h2>
       <br/>
       <br/>
       <br/>
