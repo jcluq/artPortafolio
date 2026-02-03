@@ -22,7 +22,7 @@ export default function Navbar() {
   `)
 
   const projects = data.allMarkdownRemark.nodes    
-  const 
+
 
     
   return (
