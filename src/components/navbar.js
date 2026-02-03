@@ -6,7 +6,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 export default function Navbar() {
   const data = useStaticQuery(graphql`
     query MyQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { frontmatter: { order: ASC } }){
         nodes {
           id
           frontmatter {
