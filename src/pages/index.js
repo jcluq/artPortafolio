@@ -27,7 +27,7 @@ const IndexPage = () => (
         
       </Layout>
     </MediaQuery>
-    <MediaQuery maxWidth={1000}>
+    <MediaQuery maxWidth={1223}>
       <Layout>
         <MobileMain></MobileMain>
       </Layout>
