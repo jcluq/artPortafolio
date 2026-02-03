@@ -21,15 +21,17 @@ export default function DesktopTemplate({data}) {
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
           <div className="video w-full">
-            <iframe width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/0itJS4dq_1E?si=2nxI9anOBMtvqUK0" 
+            <iframe 
+                    className="w-full aspect-video"
+                    src="https://www.youtube.com/embed/hNDfpak3wlc" 
                     title="YouTube video player" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerpolicy="strict-origin-when-cross-origin" 
                     allowfullscreen>
             </iframe>
+            <br></br>
+            <br></br>
           </div>
           <Carrousel images={data.allFile.nodes} />
         </div>
