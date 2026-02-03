@@ -6,7 +6,7 @@ export default function DesktopTemplate({data}) {
   const {html} = data.markdownRemark
   const {title} = data.markdownRemark.frontmatter
   const {year} = data.markdownRemark.frontmatter
-
+  const {youtube_id} = data.markdownRemark.frontmatter
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function DesktopTemplate({data}) {
           ></div>
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
-          <div className="video w-full">
+          {youtube_id && (<div className="video w-full">
             <iframe 
                     className="w-full aspect-video"
                     src="https://www.youtube.com/embed/hNDfpak3wlc" 
@@ -32,7 +32,7 @@ export default function DesktopTemplate({data}) {
             </iframe>
             <br></br>
             <br></br>
-          </div>
+          </div>)}
           <Carrousel images={data.allFile.nodes} />
         </div>
       </div>

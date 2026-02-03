@@ -3,6 +3,7 @@ title: Cosmological Configuration
 slug: cosmological-configuration
 year: 2018
 order: 5
+youtube_id: EAcQojAMU7s
 ---
 
 

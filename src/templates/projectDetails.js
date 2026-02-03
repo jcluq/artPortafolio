@@ -32,6 +32,7 @@ export const query = graphql`
         title
         imagesPath
         year
+        youtube_id
       }
       html
     }
