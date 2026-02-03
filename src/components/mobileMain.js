@@ -36,7 +36,7 @@ export default function MobileMain() {
           electronics, programming and digital fabrication in a horizontal way.
           I believe the sharing of knowledge is the basis for a better future.
         </h3>
-         z
+        
           
       </div>
         <br></br>
