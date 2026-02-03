@@ -15,8 +15,6 @@ export default function Carrousel(props) {
    
     {
       images.map(image => <div><Img fluid={image.childrenImageSharp[0].fluid}/><br/><br/></div>)
-
-
     }
 
       

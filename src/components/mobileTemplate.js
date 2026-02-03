@@ -14,7 +14,7 @@ export default function MobileTemplate({ data }) {
     <div className=" wrap p-10 overflow-auto scrollbar bg-black">
       <Link to ="/"><h2 className=" text-xl">Juan Camilo Luque</h2></Link>
       <h3>art + media + design</h3>
-      <h2 className=" text-3xl ">{title}</h2>
+      <h2 className=" text-3xl mt-10">{title}</h2>
       <h2 className=" text-xl ">{year}</h2>
       <br/>
       <br/>

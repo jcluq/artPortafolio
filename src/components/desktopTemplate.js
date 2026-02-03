@@ -20,6 +20,16 @@ export default function DesktopTemplate({data}) {
           ></div>
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
+          <iframe
+            src={"https://www.youtube.com/watch?v=hNDfpak3wlc&t=1s"}
+            title={videoTitle}
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            frameBorder="0"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+          />
+        </div>
           <Carrousel images={data.allFile.nodes} />
         </div>
       </div>
