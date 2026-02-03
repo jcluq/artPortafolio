@@ -2,6 +2,7 @@
 title: Ein Hauch von Tüll
 slug: ein-hauch-von-tull
 year: 2022
+order: 6
 ---
 Project in collaboration with [Lucca Vitters](https://luccavitters.art/) 
 

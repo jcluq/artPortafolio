@@ -1,5 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 
 export default function MobileTemplate({ data }) {
   console.log(data.allFile.nodes[0].childrenImageSharp[0].fluid)
@@ -11,7 +12,7 @@ export default function MobileTemplate({ data }) {
   return (
     <>
     <div className=" wrap p-10 overflow-auto scrollbar bg-black">
-      <Link to="/"><h2 className=" text-xl">Juan Camilo Luque</h2></Link>
+      <Link to ="/"><h2 className=" text-xl">Juan Camilo Luque</h2></Link>
       <h3>art + media + design</h3>
       <h2 className=" text-3xl ">{title}</h2>
       <h2 className=" text-xl ">{year}</h2>

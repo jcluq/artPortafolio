@@ -3,7 +3,7 @@
 title: The Persistance of Constancy
 slug: PersistanceOfConstancy
 year: 2025
-order: 1
+order: 2
 ---
 
 
