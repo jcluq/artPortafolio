@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className=" flex links h-4/5 justify-center items-left flex-col ml-2">
         {projects.map(project => (
           <Link to={"/" + project.frontmatter.slug} key={project.frontmatter.order}>
-            <u>{project.frontmatter.title}</u>
+            {project.frontmatter.title}
           </Link>
           
         ))
