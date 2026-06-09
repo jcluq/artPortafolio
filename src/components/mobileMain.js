@@ -28,15 +28,22 @@ export default function Navbar() {
         <h3>art + media + design</h3>
         <br></br>
         <h3 className=" text-sm text-justify">
-          I am an artist and maker from Bogota, Colombia with a deep interest in
-          installation, sculpture, physical computation and digital fabrication.<br></br><br></br>
-          I like to work with perceptually interesting technologies, objects and
-          phenomena by figuring out ways to transform them into experiences and
-          contraptions that can express what I consider special about the
-          complexity of the world we live in. <br></br><br></br>I also have experience doing
-          introductory workshops, using strategies to teach about art,
-          electronics, programming and digital fabrication in a horizontal way.
-          I believe the sharing of knowledge is the basis for a better future.
+          Materials are tools, that we can use to shape and express the complexities that involve being alive. 
+              My practice is based on the research of the manipulation of materials and mediums, as there is a question about the incidence of time on our present existant that I want to explore and share. 
+              Time is what shapes us from dust, and what directs us back to it. 
+
+              
+              <br></br>
+              <br></br>
+              
+              
+              
+              
+              
+          
+              I am an artist and maker from Bogota, Colombia , currently based in Germany, with a deep
+              interest in installation, sculpture, physical computation and
+              digital fabrication.<br></br>
         </h3>
         
           
