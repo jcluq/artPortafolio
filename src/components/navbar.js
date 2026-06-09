@@ -31,10 +31,10 @@ export default function Navbar() {
       <Link to="/"><h1 className=" text-xl">Juan Camilo Luque</h1></Link>
         <h3>art + media + design</h3>
       </div>
-      <div className=" flex links h-4/5 justify-center items-left flex-col">
+      <div className=" flex links h-4/5 justify-center items-left flex-col ml-2">
         {projects.map(project => (
           <Link to={"/" + project.frontmatter.slug} key={project.frontmatter.order}>
-            - {project.frontmatter.title}
+            <u>{project.frontmatter.title}</u>
           </Link>
           
         ))
