@@ -20,7 +20,7 @@ export default function DesktopTemplate({data}) {
           ></div>
         </div>
         <div className=" w-7/12 wrap p-20 overflow-auto scrollbar">
-          {youtube_id && (<div className="video w-full">
+          {youtube_id && (<div className="video w-full h-1/4">
             <iframe 
                     className="w-full aspect-video"
                     src={`https://www.youtube.com/embed/${youtube_id}`}
